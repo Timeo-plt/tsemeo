@@ -1,0 +1,50 @@
+/* Styles de base pour le corps du document */
+body {
+    font-family: Arial, sans-serif; /* Choix d'une police moderne */
+    background-color: #121212; /* Couleur de fond sombre */
+    color: #e0e0e0; /* Couleur du texte clair */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime le padding par défaut */
+    display: flex; /* Utilisation de flexbox pour centrer le contenu */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+}
+
+/* Conteneur pour le contenu */
+.container {
+    text-align: center; /* Centrer le texte */
+    padding: 20px; /* Ajout de padding */
+    background-color: #1e1e1e; /* Couleur de fond du conteneur */
+    border-radius: 8px; /* Bords arrondis */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5); /* Ombre pour donner de la profondeur */
+}
+
+/* Styles pour les titres */
+h1 {
+    font-size: 2.5rem; /* Taille du titre principale */
+    margin-bottom: 20px; /* Espace en dessous du titre */
+    color: #ffffff; /* Couleur blanche pour le titre */
+}
+
+.links {
+    margin-top: 20px; /* Espace au-dessus des liens */
+}
+
+/* Styles pour les titres des liens */
+h3 {
+    margin: 10px 0; /* Espace au-dessus et en dessous des sous-titres */
+}
+
+/* Styles pour les liens */
+a {
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    color: #1e90ff; /* Couleur bleue pour le lien */
+    transition: color 0.3s; /* Transition pour l'effet hover */
+}
+
+/* Effet hover pour les liens */
+a:hover {
+    color: #00bfff; /* Couleur lors du survol */
+    text-decoration: underline; /* Soulignement lors du survol */
+}
