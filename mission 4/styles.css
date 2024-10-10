@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+ }
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+ td {
+    padding: 10px;
+ }
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+input:focus {
+    border-color: #7a9dfb;
+    outline: none;
+    box-shadow: 0 0 8px rgba(122, 157, 251, 0.3);
+}
+button {
+    width: 10%;
+    background-color: #7a9dfb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #557be3;
+}
+th, td {
+    text-align: left;
+}
+th {
+    padding-bottom: 10px;
+    color: #333;
+}
+
