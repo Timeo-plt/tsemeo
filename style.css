@@ -4,8 +4,8 @@ body {
     background-color: #7c737339; /* Couleur de fond sombre */
     color: #110606a4; /* Couleur du texte clair */
     margin: 0; /* Supprime les marges par défaut */
-    padding: 0; /* Supprime le padding par défaut */
-    display: flex; /* Utilisation de flexbox pour centrer le contenu */
+    padding: 0; /*Supprime le padding par défaut */
+    /* display: flex; Utilisation de flexbox pour centrer le contenu */
     align-items: center; /* Centrage vertical */
     justify-content: center; /* Centrage horizontal */
     height: 100vh; /* Prend toute la hauteur de la fenêtre */
@@ -182,3 +182,8 @@ button {
    button:hover:before {
     width: 100%;
    }
+
+ footer {
+    text-align: center;
+    align-content: center;
+ }
