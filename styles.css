@@ -28,7 +28,7 @@ header{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: blueviolet;
+    background-color: grey;
     
 }
 
@@ -69,7 +69,7 @@ nav ul::after{
 nav a{
     display: block;
     text-decoration: none;
-    color: orange;
+    color: grey;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
@@ -114,8 +114,8 @@ footer {
     bottom: 0;
     justify-content: space-between;
     text-align: center;
-    background-color: black;
-    color: orange;
+    background-color:black;
+    color: grey;
     position: absolute;
     padding: 16px 0; 
 }
