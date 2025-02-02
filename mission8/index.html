@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercice Java</title>
+</head>
+<header>
+    <h1>Banque d'exercices JS</h1>
+</header>
+<body>
+    <h2>Exercices disponibles</h2>
+    <hr>
+    <div>
+        <h3>1.Somme</h3>
+        <p>Écrire un programme qui demande à l'utilisateur de saisir deux nombres entiers et qui affiche la somme de ces deux nombres.</p>
+        <button onclick="somme()">calcul moi ça </button>
+       <button id="solutionBtna" >solution</button>
+      <div id="solutionDiva" style="display: none;">
+        function somme () {
+            var a = parseInt(prompt("Entrez un premier nombre :"));
+            var b = parseInt(prompt("Entrez un deuxieme nombre :"));
+            var resultat = a + b;
+            alert(resultat); 
+        }
+
+      </div>
+       </div>
+      
+    
+       <div><h3>2.Multiplication </h3>
+        <p>Écrire un programme qui demande à l'utilisateur de saisir deux nombres entiers et qui affiche le produit de ces deux nombres.</p>
+        <button onclick="produit()">calcul moi ça</button>
+        <button id="solutionBtnb">solution</button>
+        <div id="solutionDivb" style="display: none;">
+            function produit () {
+                var a = parseInt(prompt("Entrez un premier nombre :"));
+                var b = parseInt(prompt("Entrez un deuxieme nombre :"));
+                var resultat = a * b;
+                alert(resultat); 
+            }</div>
+        
+    </div>
+    <div>
+        <h3>3.Soustraction</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir deux nombres entiers et qui affiche la soustraction de ces deux nombres.</p>
+        <button onclick="soustraction()">calcul moi ça</button>
+        <button id="solutionBtnc">solution</button>
+        <div id="solutionDivc">function soustraction () 
+            var a = parseInt(prompt("Entrez un premier nombre :"));
+            var b = parseInt(prompt("Entrez un deuxieme nombre :"));
+            var resultat = a - b;
+            alert(resultat); </div>
+    </div>
+    <div>
+        <h3>4.Division</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir deux nombres entiers et qui affiche la division de ces deux nombres.</p>
+        <button onclick="division()">calcul moi ça</button>
+        <button id="solutionBtnd">solution</button>
+        <div id="solutionDivd">function division () {
+            var a = parseInt(prompt("Entrez un premier nombre :"));
+            var b = parseInt(prompt("Entrez un deuxieme nombre :"));
+            var resultat = a / b;
+            alert(resultat); 
+        }</div>
+    </div>
+    <div>
+        <h3>5.Pair ou Impair</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir un nombre et voir s'il est pair ou impair</p>
+        <button onclick="pairImpair()">calcul moi ça</button>
+        <button id="solutionBtne">solution</button>
+        <div id="solutionDive">function pairImpair () {
+            var a = parseInt(prompt("Entrez un nombre :"));
+            if (a % 2 === 0) {
+                alert("Le nombre est pair");
+            } else {
+                alert("Le nombre est impair");
+            }
+        </div>
+    </div>
+    <div>
+        <h3>6.Moyenne</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir 3 notes et qui affiche la moyenne de ces notes</p>
+        <button onclick="moyenne()">calcul moi ça</button>
+        <button id="solutionBtnf">solution</button>
+        <div id="solutionDivf">function moyenne () {
+            var a = parseInt(prompt("Entrez la premiere note :"));
+            var b = parseInt(prompt("Entrez la deuxieme note :"));
+            var c = parseInt(prompt("Entrez la troisieme note :"));
+            var resultat = (a + b + c) / 3;
+            alert(resultat); 
+        }</div>
+    </div>
+    <div>
+        <h3>7.Calcul de l'aire d'un cercle</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir le rayon d'un cercle et qui affiche l'aire de ce cercle</p>
+        <button onclick="aireCercle()">calcul moi ça</button>
+        <button id="solutionBtng">solution</button>
+        <div id="solutionDivg">function aireCercle () {
+            var rayon = parseInt(prompt("Entrez le rayon du cercle :"));
+            var resultat = Math.PI * rayon * rayon;
+            alert(resultat); 
+        }</div>
+    </div>
+    <div>
+        <h3>8.calcul du périmetre du cercle </h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir le rayon d'un cercle et qui affiche le périmètre de ce cercle</p>
+        <button onclick="perimetreCercle()">calcul moi ça</button>
+        <button id="solutionBtnh">solution</button>
+        <div id="solutionDivh">function perimetreCercle () {
+            var rayon = parseInt(prompt("Entrez le rayon du cercle :"));
+            var resultat = 2 * Math.PI * rayon;
+            alert(resultat); 
+        }</div>
+    </div>
+    <div>
+        <h3>9.Calcul de l'aire d'un rectangle</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir la longueur et la largeur d'un rectangle et qui affiche l'aire de ce rectangle</p>
+        <button onclick="aireRectangle()">calcul moi ça</button>
+        <button id="solutionBtni">solution</button>
+        <div id="solutionDivi">function aireRectangle () {
+            var longueur = parseInt(prompt("Entrez la longueur du rectangle :"));
+            var largeur = parseInt(prompt("Entrez la largeur du rectangle :"));
+            var resultat = longueur * largeur;
+            alert(resultat); 
+        }</div>
+    </div>
+    <div>
+        <h3>10.Donner les tables de multiplication d'un nombre donné</h3>
+        <p>Ecrire un programme qui demande à l 'utilisateur de saisir un nombre puis de donner sa table de multiplication</p>
+        <button onclick="table()">calcul moi ça</button>
+        <button id="solutionBtnj">solution</button>
+        <div id="solutionDivj">function table () {
+            var a = parseInt(prompt("Entrez un nombre :"));
+            for (var i = 1; i <= 10; i++) {
+                var resultat = a * i;
+                alert(a + " x " + i + " = " + resultat);
+            }
+        }</div>
+    </div>
+    <div>
+        <h3>11.Calcul de la factorielle d'un nombre</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir un nombre et qui affiche la factorielle de ce nombre</p>
+        <button onclick="factorielle()">calcul moi ça</button>
+        <button id="solutionBtnk">solution</button>
+        <div id="solutionDivk">function factorielle () {
+            var a = parseInt(prompt("Entrez un nombre :"));
+            var resultat = 1;
+            for (var i = 1; i <= a; i++) {
+                resultat = resultat * i;
+            }
+            alert(resultat);
+        }</div>
+    </div>
+    <div>
+        <h3>12.Calcul de la puissance d'un nombre</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir un nombre et sa puissance et qui affiche le résultat</p>
+        <button onclick="puissance()">calcul moi ça</button>
+        <button id="solutionBtnl">solution</button>
+        <div id="solutionDivl">function puissance () {
+            var a = parseInt(prompt("Entrez un nombre :"));
+            var b = parseInt(prompt("Entrez la puissance :"));
+            var resultat = Math.pow(a, b);
+            alert(resultat);
+        }</div>
+    </div>
+    <div>
+        <h3>13.Calcul de la racine carrée d'un nombre</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir un nombre et qui affiche sa racine carrée</p>
+        <button onclick="racine()">calcul moi ça</button>
+        <button id="solutionBtnm">solution</button>
+        <div id="solutionDivm">function racine () {
+            var a = parseInt(prompt("Entrez un nombre :"));
+            var resultat = Math.sqrt(a);
+            alert(resultat);
+        }</div>
+    </div>
+    <div>
+        <h3>14. Voir si le nombre est premier ou pas</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir un nombre et voir si il est premier ou pas</p>
+        <button onclick="premier()">calcul moi ça</button>
+        <button id="solutionBtnn">solution</button>
+        <div id="solutionDivn">function premier () {
+            var a = parseInt(prompt("Entrez un nombre :"));
+            var premier = true;
+            for (var i = 2; i < a; i++) {
+                if (a % i === 0) {
+                    premier = false;
+                }
+            }
+            if (premier) {
+                alert("Le nombre est premier");
+            } else {
+                alert("Le nombre n'est pas premier");
+            }
+        }</div>
+    </div>
+    <div>
+        <h3> 15. Division</h3>
+        <p>Ecrire un programme qui demande à l'utilisateur de saisir deux nombre et de les diviser</p>
+        <button onclick="division()">calcul moi ça</button>
+        <button id="solutionBtno">solution</button>
+        <div id="solutionDivo">function division () {
+            var a = parseInt(prompt("Entrez un premier nombre :"));
+            var b = parseInt(prompt("Entrez un deuxieme nombre :"));
+            var resultat = a / b;
+            alert(resultat); 
+        }</div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
