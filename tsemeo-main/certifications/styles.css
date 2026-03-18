@@ -1,0 +1,13 @@
+div{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px grey;
+
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+

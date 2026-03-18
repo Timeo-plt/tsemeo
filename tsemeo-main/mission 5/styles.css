@@ -1,0 +1,117 @@
+.info{
+    border: 3px solid;
+    border-color: black;
+    float: left;
+    width: 20%;
+    height: 200px;
+    border-radius: 3px;
+    background-color: grey;
+}
+.photo{
+    border: 3px;
+    float: right;
+    width: 20%;
+    height: 200px;
+    border-radius: 3px;
+
+}
+.date{
+    border: 3px solid;
+    border-color: black;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 200px;
+    margin: 1% 0;
+    border-radius: 3px;
+    background-color: grey;
+}
+.ecole{
+    border: 3px solid;
+    border-color: black;
+    float: right;
+    width: 75%;
+    height: 200px;
+    margin: 1% 0;
+    border-radius: 3px;
+    background-color: grey;
+}
+.datepro{
+    border: 3px solid;
+    border-color: black;
+    float: left;
+    clear: both;
+    width: 20%;
+    height: 200px;
+    margin: 1% 0;
+    border-radius: 3px;
+    background-color: grey;
+}
+.travail{
+    border: 3px solid;
+    border-color: black;
+    float:right;
+    width: 75%;
+    height: 200px;
+    margin: 1% 0;
+    border-radius: 3px;
+    background-color: grey;
+}
+.lv{
+    border: 3px solid;
+    border-color: black;
+    float: left;
+    clear: both;
+    width: 20%;
+    height: 200px;
+    margin: 1% 0;
+    border-radius: 3px;
+    background-color: grey;
+}
+.textelangue{
+    border: 3px solid;
+    border-color: black;
+    float:right;
+    width: 75%;
+    height: 200px;
+    margin: 1% 0;
+    border-radius: 3px;
+    background-color: grey;
+}
+.interet{
+    border: 3px solid;
+    border-color: black;
+    float: left;
+    clear: both;
+    width: 20%;
+    height: 200px;
+    margin: 1% 0;
+    border-radius: 3px;
+    background-color: grey;
+}
+.texteinteret{
+    border: 3px solid;
+    border-color: black;
+    float:right;
+    width: 75%;
+    height: 200px;
+    margin: 1% 0;
+    border-radius: 3px;
+    background-color: grey;
+}
+.CV{
+    border: 3px solid;
+    border-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 3px;
+    color: black;
+}
+.image{
+    width: auto;
+    height: 200px;
+    border: 5px solid;
+    border-radius: 3px;
+    background-color: grey;
+}
+  

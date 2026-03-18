@@ -1,0 +1,8 @@
+div{
+    border: 3px solid;
+    border-color:black ;
+    border-radius: 3px;
+}
+ body{
+    margin: 0;
+ }

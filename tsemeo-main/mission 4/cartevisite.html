@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte de visite</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carte de visite</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f0f0f0;
+                font-family: 'Arial', sans-serif;
+            }
+            .business-card {
+                width: 350px;
+                height: 200px;
+                background-color: #ffffff;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                transition: transform 0.3s;
+            }
+            .business-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+            .name {
+                font-size: 24px;
+                font-weight: bold;
+                color: #333;
+            }
+            .job-title {
+                font-size: 18px;
+                color: #7a9dfb;
+                margin-bottom: 20px;
+            }
+            .contact-info {
+                font-size: 14px;
+                color: #555;
+                line-height: 1.6;
+            }
+            .contact-info a {
+                text-decoration: none;
+                color: #7a9dfb;
+                font-weight: bold;
+            }
+            .contact-info a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="business-card">
+            <div class="name">Timeo Pilatte</div>
+            <div class="job-title">Développeur Web</div>
+            <div class="contact-info">
+                <p>Email : <a href="timeopilatte@gmail;com">timeopilatte@gmail.com</a></p>
+                <p>Téléphone : <a href="tel:+33768540540">+33 1 23 45 67 89</a></p>
+                <p>Site web : <a href="https://github.com/Timeo-plt/tsemeo" target="_blank">github</a></p>
+            </div>
+        </div>
+        <button class="btn" onclick="location.href='../index.html'">Acceuil</button>
+    
+    </body>
+    </html>
+    
+    
+
+    
+</body>
+</html>

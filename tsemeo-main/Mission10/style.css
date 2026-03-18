@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+#Destinataire h2, #EnvoyerA h2 {
+    color: #333;
+}
+
+
+#Destinataire, #EnvoyerA {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0;
+}
+button{
+    background-color: lightgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
